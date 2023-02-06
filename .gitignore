@@ -1,1 +1,5 @@
+# executable files
 *.exe
+
+# object files
+*.o
