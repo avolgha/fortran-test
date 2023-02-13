@@ -1,6 +1,7 @@
 ! **Problem**: (https://leetcode.com/problems/two-sum/)
-! Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
-! You may assume that each input would have exactly one solution, and you may not use the same element twice.
+! Given an array of integers nums and an integer target, return indices of the
+! two numbers such that they add up to target. You may assume that each input
+! would have exactly one solution, and you may not use the same element twice.
 ! You can return the answer in any order.
 
 ! **Comment**:
@@ -12,7 +13,7 @@
 ! I could as well only test this on the 3 Test Cases LeetCode
 ! gave to me so I don't know if it would pass all of them.
 
-program twosum
+program problem
   implicit none
 
   interface
@@ -25,7 +26,7 @@ program twosum
   call run ((/2, 7, 11, 15/), 9)
   call run ((/3, 2, 4/)     , 6)
   call run ((/3, 3/)        , 6)
-end program twosum
+end program problem
 
 subroutine run(inputArray, target)
   integer, dimension(:) :: inputArray
